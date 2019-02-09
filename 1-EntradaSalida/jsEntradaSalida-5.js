@@ -4,9 +4,13 @@ function mostrar()
 {	
 
 
-	var nombre5
+	var nombre5;
+	var edad1;
 	nombre5 = elNombre.value;
-	alert("Usted se llama" + nombre5);
+	edad1 = laEdad.value;
+	alert ("Usted se llama "+ nombre5+ " y tiene "+ edad1+ " años.");
+	//alert("Usted se llama " + elNombre.value);
+
 	
 }
 
