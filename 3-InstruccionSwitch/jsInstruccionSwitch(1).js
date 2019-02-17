@@ -1,30 +1,27 @@
-function mostrar()
-{
-//tomo la edad  
-var mesDelAño = document.getElementById('mes').value;
-var mensaje; 
+function mostrar() {
+	//tomo la edad 
+	var mesDelAño = document.getElementById('mes').value;
+	var mensaje;
 
 
-switch (mesDelAño)
-
-	{	
+	switch (mesDelAño) {
 		case "Enero":
-			mensaje = "Que comiences bien el año!"
+			mensaje = "Que comiences bien el año!";
 			break;
 		case "Marzo":
-			mensaje = "A clases!"
+			mensaje = "A clases!";
 			break;
 		case "Julio":
-			mensaje = "Se vienen las vacaciones :D!"
+			mensaje = "Se vienen las vacaciones :D!";
 			break;
 		case "Diciembre":
-			mensaje = "Felices fiestas bro"
+			mensaje = "Felices fiestas bro";
+			break;
+		default:
+			mensaje = "Error no existe el mes: " + mesDelAño;
 			break;
 
-
-
 	}
-
 
 	alert(mensaje);
 
