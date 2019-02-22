@@ -18,8 +18,10 @@ function mostrar() {
 			mensaje = "Felices fiestas bro";
 			break;
 		default:
-			mensaje = "Error no existe el mes: " + mesDelAño;
+			mensaje = "No se programó el mes: " + mesDelAño;
 			break;
+
+
 
 	}
 
