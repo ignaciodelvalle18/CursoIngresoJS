@@ -7,9 +7,9 @@ function mostrar()
  	edad1 = edad.value
  	edad1 = parseInt(edad1)
  	estado = estadoCivil.value
+ 	
 
-
- 	if (edad1>18&&estado!= "Soltero")
+ 	if (edad1<18 && estado != "soltero")
  	{
  		alert("Es muy pequeño para NO ser soltero.")
  	} 
