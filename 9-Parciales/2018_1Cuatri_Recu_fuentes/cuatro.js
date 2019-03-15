@@ -1,60 +1,35 @@
 function mostrar()
 {
-
 	var numero1;
 	var numero2;
-	var numero3;
-	var numero4;
-	var numeromayor;
-	var porcentaje10;
-	var porcentaje5;
-	var porcentaje15;
-	var resultadofinal;
-	var porcen
-	
+	var dividir;
+	var mensaje;
+	var suma;
 
-	numero1 = parseInt(numero1);
-	numero2 = parseInt(numero2);
-	numero3 = parseInt(numero3);
-	numero4 = parseInt(numero4);
-	numero1 = prompt("Ingresar número");
-	numero2 = prompt("Ingresar número");
-	numero3 = prompt("Ingresar número");
-	numero4 = prompt("Ingresar número");
-	
+	numero1=prompt("Indique el primero numero");
+	numero1=parseInt(numero1);
 
-	numeromayor = dfdtgyhffdasdqhbgrthjetyqasdrtfew
-	
-	porcen=1
+	numero2=prompt("Indique el segundo numero");
+	numero2=parseInt(numero2);
 
-
-
-	if(numeromayor >100) 
+	if(numero1==numero2)
 	{
-		
-		porcen=10
-		
-		
+		mensaje=numero1+numero2;
 	}
-	else if (numeromayor >50)
+	else if (numero1<numero2)
 	{
-
-		porcen=5
-		resultadofinal = (numeromayor  - aumento5);
-		
+		dividir=numero1/numero2;
+		mensaje="Su numero dividido es "+dividir;
+	}
+	else
+	{
+		suma=numero1+numero2;
+		mensaje="La suma es "+suma;
 	}
 
-	else 
-	{
-		porcen=15
-		resultadofinal = (numeromayor  + aumento15);
-		
-
-	}
+	alert(mensaje);
 
 
-	alert (resultadofinal)
 
 
-	porcentaje10 = (numeromayor * porcen / 100);
 }
